@@ -1,0 +1,30 @@
+/* children of body will inherent this style unless they have their own style */
+body{
+    color:gray
+}
+h1{
+    color: brown;
+}
+
+/* ID selector */
+#title {
+    color: red;
+    background: rosybrown;
+}
+
+#footer{
+    color:seagreen
+}
+
+/* class selector */
+.red{
+    color:skyblue
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+span{
+    text-transform: uppercase;
+}
