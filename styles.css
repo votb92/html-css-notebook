@@ -1,6 +1,6 @@
 /* children of body will inherent this style unless they have their own style */
 body{
-    color:gray
+    color:green
 }
 h1{
     color: brown;
