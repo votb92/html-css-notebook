@@ -1,23 +1,26 @@
 /* children of body will inherent this style unless they have their own style */
-body{
-    color:green
+/* body{
+    color:green;
+    line-height: 1.5;
+    font-size: 20px;
+    border: 3px solid black;
 }
 h1{
     color: brown;
-}
+} */
 
 /* ID selector */
-#title {
+/* #title {
     color: red;
     background: rosybrown;
 }
 
 #footer{
     color:seagreen
-}
+} */
 
 /* class selector */
-.red{
+/* .red{
     color:skyblue
 }
 
@@ -27,4 +30,39 @@ h1{
 
 span{
     text-transform: uppercase;
+} */
+
+/* id > class > element*/
+
+
+/* COLOR PROPERTIES */
+/* COLOR BACKGROUND */
+#first{
+    color: rgb(136, 40, 40);
+    background-color: black;
+}
+
+#second{
+    color: red;
+    background: yellow;
+}
+
+/* PIXELS- absolute values , doesnt change on different screens*/
+/* % -PERCENT- relative, and depend on parent */
+/* em- relative, depends on parent (affected by browser setting)*/
+.outer{
+    width: 300px;
+    height: 300px;
+    background: blue;
+}
+.inner{
+    width: 50%;
+    height: 50%;
+    background: red;
+}
+.absolute{
+    font-size: 32px;
+}
+.relative{
+    font-size: 2em;
 }
