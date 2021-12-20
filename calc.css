@@ -11,10 +11,17 @@ MIX MATCH VALUE
 .navbar{
     background: blue;
     height: 6rem;
-    color: white;
+    color: white; 
     font-size: 3rem;
 }
 .banner{
     background: red;
     height: calc(100vh - 6rem);
+}
+.example{
+    background: green;
+    width: 10rem;
+    height: 25rem;
+    overflow: hidden;
+    overflow: scroll;
 }

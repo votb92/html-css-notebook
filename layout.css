@@ -1,0 +1,18 @@
+/* BLOCK: ALways starts a new line and span full width , div, h1, p has display block by default*/ 
+/* INLINE: does not start a new line and spans only content, span, a and img display inline by default */
+
+.block{
+    background: blue;
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.inline{
+    background: red;
+    color:white
+}
+
+body{
+    text-align: center;
+}
